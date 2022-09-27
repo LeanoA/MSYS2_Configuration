@@ -25,7 +25,7 @@ Save it and then restart MSYS2 to apply the new settings.
 # Example proxy:
 # export http_proxy=http://$USERNAME:$PASSWORD@proxy-server-name:1234
 # Simpler example without username/password:
-export http_proxy=http://proxy.cab.cnea.gov.ar:3128
+export http_proxy=http://PROXY_NETWORK:PORT
 
 export https_proxy=$http_proxy
 export HTTP_PROXY=$http_proxy
