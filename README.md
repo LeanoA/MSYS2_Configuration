@@ -66,6 +66,12 @@ uname -a
 cd $HOME
 #screenfetch -E
 ```
+## Add packages updates 
+
+```bash
+pacman -Syu
+```
+
 
 ## Install gcc y dgb
 
