@@ -73,12 +73,14 @@ pacman -Syu
 ```
 
 
-## Install gcc y dgb
+## Install gcc and g++ Compilers and dgb Debugger
+As I am using a 64-bit operating system, I have opened the terminal for 64-bit.
 
 ```bash
 pacman -Syu mingw-w64-x86_64-gcc
 pacman -Syu mingw-w64-x86_64-gdb
 ```
+If you are using a 32-bit operating system, you need to run the `pacman -Syu mingw-w64-i686-gcc` and ``pacman -S mingw-w64-i686-gdb` ` commands in your MSY2 MinGW 32-bit terminal.
 
 test if it is installed
 
@@ -86,6 +88,18 @@ test if it is installed
 g++ --version
 gdb --version
 ```
+
+## Add the Directory to the Path of the Environment Variables
+
+If you use a 64 -bit operating system like me, access the Mingw64 folder.
+In my case `C:\msys64\mingw64\bin` and copy the direction.
+
+Open in windows `Edit the system environment variables`
+- click `Environment Variables` from the Advanced tab.
+- Click on the path and select it.
+- Then click Edit. 
+- Click New. An empty field is displayed. Paste the directory here.
+
 ## Using g++ and gdb with VScode
 
 Select g++ compliler.
