@@ -102,7 +102,7 @@ Open in windows `Edit the system environment variables`
 
 ## Using g++ and gdb with VScode
 
-Select g++ compliler.
+Select g++ compiler.
 - Check or modify `miDebuggerPath` line in `lauch.json` file: `"miDebuggerPath": "C:\\msys64\\mingw64\\bin\\gdb.exe".`
 - Check or modify `command` line in `task.json` file: `"command": "C:\\msys64\\mingw64\\bin\\g++.exe"`
 
