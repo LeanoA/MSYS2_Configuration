@@ -96,9 +96,9 @@ In my case `C:\msys64\mingw64\bin` and copy the direction.
 
 Open in windows `Edit the system environment variables`
 - click `Environment Variables` from the Advanced tab.
-- Click on the path and select it.
-- Then click Edit. 
-- Click New. An empty field is displayed. Paste the directory here.
+- Click on the `PATH` and select it.
+- Then click `Edit`. 
+- Click `New`. An empty field is displayed. Paste the directory here.
 
 ## Using g++ and gdb with VScode
 
