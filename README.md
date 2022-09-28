@@ -110,6 +110,7 @@ For more information, visit https://code.visualstudio.com/docs/languages/cpp.
 
 ## Reference
 Original guide from https://gist.github.com/roblogic/b401aa68d0a7c7c96095fa64a7c9f684
+Othe reference https://www.freecodecamp.org/news/how-to-install-c-and-cpp-compiler-on-windows/
 
 ## Disclaimer
 
