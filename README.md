@@ -80,7 +80,7 @@ As I am using a 64-bit operating system, I have opened the terminal for 64-bit.
 pacman -Syu mingw-w64-x86_64-gcc
 pacman -Syu mingw-w64-x86_64-gdb
 ```
-If you are using a 32-bit operating system, you need to run the `pacman -Syu mingw-w64-i686-gcc` and ``pacman -S mingw-w64-i686-gdb` ` commands in your MSY2 MinGW 32-bit terminal.
+If you are using a 32-bit operating system, you need to run the `pacman -Syu mingw-w64-i686-gcc` and `pacman -S mingw-w64-i686-gdb` commands in your MSY2 MinGW 32-bit terminal.
 
 test if it is installed
 
